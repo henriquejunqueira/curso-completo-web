@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formatações de Texto</title>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* div {
+        font-size: 30px;
+      } */
+
+      p {
+        font-size: 30px;
+        font-family: 'Georgia';
+      }
+
+      .texto {
+        /* font-size: 16px; */
+        /* font-size: 100%; */
+        /*font-size: 1em;*/ /* o tamanho "em" é proporcional ao tamanho pai, ou seja, se o pai tiver 16px então 1em é igual a 16px, 
+        se for 60px então 1em é igual a 60px */
+        font-size: 20px;
+      }
+
+      .negrito {
+        /* font-weight: bold; */
+        /* font-weight: normal; */
+        /* font-weight: 100; */
+        font-weight: 900; /* 100 até 900 */
+      }
+
+      .estilo {
+        font-style: italic;
+        /* font-style: oblique; */
+      }
+
+      .texto-padrao {
+        font: bold 40px 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+      }
+
+      .formatacao {
+        /* text-decoration: underline; */
+        /* text-decoration: overline; */
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="texto">
+        Lorem ipsum, <span class="formatacao">dolor</span> sit amet consectetur
+        adipisicing elit.
+      </p>
+      <p class="negrito">Conteúdo 1</p>
+      <p>Conteúdo 2</p>
+      <p class="estilo">Conteúdo 3</p>
+      <p class="texto-padrao">Conteúdo 4</p>
+    </div>
+  </body>
+</html>
