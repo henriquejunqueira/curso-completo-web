@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8" />
+		<title>Navegação</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/estilo.css" />
+	</head>
+	<body>
+		<!-- * Barra navegação -->
+		<!-- ! navbar-default está depreciado no bootstrap 5 -->
+		<!-- <nav class="navbar navbar-default"> -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a href="#" class="navbar-brand">LOGO</a>
+				<button
+					type="button"
+					class="navbar-toggler collapsed ms-auto"
+					data-toggle="collapse"
+					data-target="#barra-navegacao"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- navbar-collapse e navbar-nav organizam os itens de navegação e garantem que fiquem na horizontal e alinhados à direita. -->
+				<div class="collapse navbar-collapse" id="barra-navegacao">
+					<!-- ! navbar-nav navbar-right estão depreciados no bootstrap 5 -->
+					<!-- <ul class="nav navbar-nav navbar-right"> -->
+					<ul class="nav navbar-nav ms-auto">
+						<!-- ? o ms-auto substitui o navbar-right-->
+						<li class="nav-item">
+							<a href="#" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Empresa</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Clientes</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Produtos</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								href="#"
+								class="nav-link dropdown-toggle"
+								data-bs-toggle="dropdown"
+								role="button"
+								aria-expanded="false"
+								>Minha Conta
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#" class="dropdown-item">Editar</a>
+								</li>
+								<li>
+									<a href="#" class="dropdown-item">Logout</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="pb-2 mt-4 mb-4 border-bottom">
+				<h1>Navegação bootstrap</h1>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/1.11.3/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
