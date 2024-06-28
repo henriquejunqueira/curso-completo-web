@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8" />
+		<title>Imagens</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/estilo.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="pb-2 mt-4 mb-4 border-bottom">
+				<h1>Imagens bootstrap</h1>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Imagem responsiva</h3>
+					<!-- ! classe img-responsive foi substituída pela img-fluid no bottstrap 5 -->
+					<img
+						src="img/uvas.png"
+						alt=""
+						class="img-fluid rounded-circle"
+					/>
+				</div>
+				<div class="col-sm-6">
+					<h3>Imagem não responsiva</h3>
+					<img src="img/uvas.png" alt="" />
+				</div>
+			</div>
+			<!-- fim row -->
+
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Formas em imagens</h3>
+					<!-- ! img-circle foi substituida por rounded-circle no bottstrap 5 -->
+					<img src="img/uvas200.png" alt="" class="rounded-circle" />
+
+					<!-- ! img-rounded foi substituida por rounded no bottstrap 5 -->
+					<img src="img/uvas200.png" alt="" class="rounded" />
+
+					<img src="img/uvas200.png" alt="" class="img-thumbnail" />
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
