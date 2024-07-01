@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Tabs</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/estilo.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="pb-2 mt-4 mb-4 border-bottom">
+				<h1>Tabs bootstrap</h1>
+				<p class="lead">Alterne facilmente entre conteúdos</p>
+			</div>
+
+			<!-- Criação das abas -->
+			<!-- ? nav-tabs cria abas e nav-pills cria a navegação das abas como botões -->
+			<!-- <ul class="nav nav-tabs" role="tablist"> -->
+			<ul class="nav nav-pills" role="tablist">
+				<li class="nav-item">
+					<a
+						href="#info"
+						class="nav-link active"
+						role="tab"
+						data-bs-toggle="tab"
+						>Informações</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						href="#avaliacoes"
+						class="nav-link"
+						role="tab"
+						data-bs-toggle="tab"
+						>Avaliações</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						href="#compre"
+						class="nav-link"
+						role="tab"
+						data-bs-toggle="tab"
+						>Compre também</a
+					>
+				</li>
+			</ul>
+
+			<!-- Conteúdo das abas -->
+			<div class="tab-content">
+				<!-- Aba informações -->
+				<div class="tab-pane active" role="tabpanel" id="info">
+					<h3>Informações</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit. Pariatur adipisci quasi architecto aliquid
+						dignissimos aut ab officiis, dolores animi cum. Maiores
+						nostrum porro quaerat cumque ipsa aliquid, rerum at
+						quidem quod voluptatum laborum nobis id cupiditate error
+						inventore facilis autem!
+					</p>
+				</div>
+				<!-- Aba avaliações -->
+				<div class="tab-pane" role="tabpanel" id="avaliacoes">
+					<h3>Avaliações</h3>
+					<p>
+						Suspendisse scelerisque semper felis ac lobortis. Nulla
+						lectus velit, malesuada sit amet euismod sed, fringilla
+						eu ante. Praesent ac libero hendrerit, interdum orci id,
+						suscipit lorem. Pellentesque habitant morbi tristique
+						senectus et netus et malesuada fames ac turpis egestas.
+						Sed nec vestibulum sem.
+					</p>
+				</div>
+				<!-- Aba compre também -->
+				<div class="tab-pane" role="tabpanel" id="compre">
+					<h3>Compre também</h3>
+					<p>
+						Vivamus ligula ex, scelerisque vel libero vel, aliquet
+						ultricies eros. Proin ut odio molestie, pellentesque
+						ipsum vel, volutpat sem. Duis ut interdum odio, eu
+						pretium sem. Fusce sed tellus vel lacus scelerisque
+						egestas. Proin in tempus sem, ac laoreet ligula. Ut et
+						congue odio. In dignissim arcu malesuada porta luctus.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/popper.min.js"></script>
+	</body>
+</html>
