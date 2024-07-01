@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Alert</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/estilo.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="pb-2 mt-4 mb-4 border-bottom">
+				<h1>Alert bootstrap</h1>
+			</div>
+
+			<!-- ! a classe alert-dismissible que define a posiçao do X para fechar o alerta, no lado direito  -->
+			<!-- ? O atributo role descreve a função de um elemento em programas que podem fazer uso dele, -->
+			<!-- ? como leitores de tela ou lupas. No exemplo: <a href="#" role="button">Link de botão</a> os leitores -->
+			<!-- ? de tela lerão esse elemento como um "botão" ao invés de um "link". -->
+			<div class="alert alert-success alert-dismissible" role="alert">
+				<strong>Sucess</strong> teste!!!
+				<!-- ? aria é um atributo de acessibilidade para leitores de tela -->
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="alert"
+					aria-label="Fechar"
+				></button>
+			</div>
+			<div class="alert alert-info alert-dismissible" role="alert">
+				<strong>Info</strong> teste!!!
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="alert"
+					aria-label="Fechar"
+				></button>
+			</div>
+			<div class="alert alert-warning alert-dismissible" role="alert">
+				<strong>Warning</strong> teste!!!
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="alert"
+					aria-label="Fechar"
+				></button>
+			</div>
+			<div class="alert alert-danger alert-dismissible" role="alert">
+				<strong>Danger</strong> teste!!!
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="alert"
+					aria-label="Fechar"
+				></button>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/popper.min.js"></script>
+	</body>
+</html>

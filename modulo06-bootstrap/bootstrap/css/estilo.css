@@ -1,9 +1,17 @@
 .marcador {
-  background: #fe9d9d;
-  border: 1px solid #f94646;
+	background: #fe9d9d;
+	border: 1px solid #f94646;
 }
 
 .marcador2 {
-  background: #5bf946;
-  border: 1px solid #36ae26;
+	background: #5bf946;
+	border: 1px solid #36ae26;
+}
+
+.observacao {
+	margin-top: 80px;
+}
+
+.observacao p {
+	font-size: 12px;
 }
